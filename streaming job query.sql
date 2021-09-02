@@ -8,7 +8,7 @@ USE [iot];
 GO
 -- drop the table and then create table to update
 CREATE TABLE [dbo].[Temperature](
-	[deviceid] nchar(10) NULL,
+	[deviceid] nchar(50) NULL,
 	[messageid] int NULL,
 	[datetime] datetime NULL,
 	[temperature] float NULL,
